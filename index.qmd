@@ -19,5 +19,9 @@ about:
 
 # Hi there!
 
-I'm Kyrylo, a Data Science and Statistics major at St. Olaf. My work philosophy is creating meaningful impact by letting facts and numbers guide decisions.
+I'm Kyrylo, a Data Science and Statistics major at St. Olaf. 
+
+My work philosophy is creating meaningful impact by letting facts and numbers guide decisions.
+
+I leverage R, Python, and SQL to manage and analyze complex datasets, generating actionable insights and tailored solutions for various business domains.
 
