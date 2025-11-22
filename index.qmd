@@ -1,12 +1,21 @@
 ---
 title: "Kyrylo Koltunov"
+image: kk_pic.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/kyrylokoltunov/
+    - text: GitHub
+      href: https://github.com/kyrylokoltunov
+    - text: Email
+      href: kyrylo.koltunov@icloud.com
 ---
 
-This is a Quarto website.
+# Welcome!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 2
-```
-
+Hi! I’m Kyrylo.  
+This website is my personal space where I share projects, experiences, and more.
