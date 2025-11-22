@@ -1,30 +1,61 @@
-/* ---- Black Navbar ---- */
+/* -------------------------------
+   Soft Navbar Styling
+-------------------------------- */
 .navbar {
-  background-color: #000 !important; /* pure black */
+  background-color: #f2f0eb !important; /* warm beige */
+  border-bottom: 1px solid #ddd;
 }
 
-.navbar .navbar-brand,
-.navbar .nav-link {
-  color: #fff !important; /* white text */
+.navbar .nav-link,
+.navbar-brand {
+  color: #333 !important;
+  font-weight: 500;
 }
 
-.navbar .navbar-brand:hover,
 .navbar .nav-link:hover {
-  color: #ccc !important; /* light grey hover */
+  color: #000 !important;
 }
 
-.navbar-toggler-icon {
-  filter: invert(1); /* make mobile icon white */
-}
-
-/* ---- Basic Page Styling ---- */
+/* -------------------------------
+   Page Background + Text
+-------------------------------- */
 body {
-  background-color: #ffffff; /* keep simple white background */
-  color: #000000;            /* normal black text */
+  background-color: #faf9f7; /* off-white, softer than pure white */
+  color: #222;               /* softer black */
+  line-height: 1.7;
+  font-family: "Inter", "Helvetica", sans-serif;
 }
 
-/* Optional: make the About block centered + spaced */
-.about {
-  padding-top: 1.5rem;
+/* -------------------------------
+   Cards / Content Blocks
+-------------------------------- */
+.about, .content {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  margin-top: 1rem;
 }
+
+/* -------------------------------
+   Make Profile Photo Rounder / Elegant
+-------------------------------- */
+.about img {
+  border-radius: 16px;     /* softer than full round */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* -------------------------------
+   Links
+-------------------------------- */
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003d80;
+  text-decoration: underline;
+}
+
 
