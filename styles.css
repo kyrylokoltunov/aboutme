@@ -1,1 +1,19 @@
-/* css styles */
+.navbar {
+  background-color: #000000 !important; /* pure black */
+  border-bottom: 1px solid #222; 
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  color: #ffffff !important; /* white text */
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar-brand:hover {
+  color: #bbbbbb !important; /* light grey hover */
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); /* make mobile burger icon white */
+}
