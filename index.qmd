@@ -1,19 +1,21 @@
 ---
 title: "Kyrylo Koltunov"
-image: kk_pic.jpeg
 toc: false
-about: 
-  template: jolla
+about:
+  template: trestles
+  image: kk_pic.jpeg
   image-shape: round
-  image-width: 17em
+  image-width: 250px
   links:
     - text: LinkedIn
-      href: https://www.linkedin.com/in/kyrylokoltunov/
+      href: "https://www.linkedin.com/in/kyrylokoltunov/"
     - text: GitHub
-      href: https://github.com/kyrylokoltunov
+      href: "https://github.com/kyrylokoltunov"
     - text: Email
-      href: kyrylo.koltunov@icloud.com
+      href: "mailto:kyrylo.koltunov@icloud.com"
 ---
+
+
 
 # Hi there!
 
