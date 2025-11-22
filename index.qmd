@@ -1,5 +1,5 @@
 ---
-title: "KK WEB PROJECT"
+title: "Kyrylo Koltunov"
 ---
 
 This is a Quarto website.
