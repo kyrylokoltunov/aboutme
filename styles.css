@@ -1,19 +1,30 @@
+/* ---- Black Navbar ---- */
 .navbar {
-  background-color: #000000 !important; /* pure black */
-  border-bottom: 1px solid #222; 
+  background-color: #000 !important; /* pure black */
 }
 
-.navbar .nav-link,
-.navbar-brand {
-  color: #ffffff !important; /* white text */
-  font-weight: 500;
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important; /* white text */
 }
 
-.navbar .nav-link:hover,
-.navbar-brand:hover {
-  color: #bbbbbb !important; /* light grey hover */
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  color: #ccc !important; /* light grey hover */
 }
 
 .navbar-toggler-icon {
-  filter: invert(1); /* make mobile burger icon white */
+  filter: invert(1); /* make mobile icon white */
 }
+
+/* ---- Basic Page Styling ---- */
+body {
+  background-color: #ffffff; /* keep simple white background */
+  color: #000000;            /* normal black text */
+}
+
+/* Optional: make the About block centered + spaced */
+.about {
+  padding-top: 1.5rem;
+}
+
