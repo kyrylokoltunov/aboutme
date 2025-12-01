@@ -1,13 +1,13 @@
-/* --- Modern Minimal White Style --- */
+
 
 body {
-  background: #f8f8f8;        /* very soft modern white */
-  color: #1a1a1a;             /* deep neutral text */
+  background: #f8f8f8;        
+  color: #1a1a1a;             
   font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   line-height: 1.65;
 }
 
-/* Navbar (clean, modern, floating style) */
+
 .navbar {
   background: #ffffff !important;
   border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -23,7 +23,7 @@ body {
   color: #000 !important;
 }
 
-/* Content card feel */
+
 .about, .content {
   background: #ffffff;
   padding: 2rem;
@@ -32,7 +32,7 @@ body {
   margin-top: 1.5rem;
 }
 
-/* Profile image modern look */
+
 .about img {
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
