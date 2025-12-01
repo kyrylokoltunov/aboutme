@@ -3,35 +3,97 @@ title: "Text_Analysis"
 format: html
 ---
 
-My mini project focuses on analyzing Google reviews for one of my favorite places to eat in Northfield, MN — The Ole Store Restaurant. They specialize in Norwegian and European cuisine. Their Google Maps page is quite popular, with over 800 reviews collected through the years, along with a wide variety of photos shared by both the restaurant and enthusiastic customers.
+# The Ole Store Restaurant – Google Reviews Analysis  
+_by Kyrylo Koltunov_
 
-I’m especially interested in examining the text of these reviews to better understand the psychology behind them and gain insight into how people truly feel about the restaurant. This analysis could help the restaurant improve and become even more popular based on customer feedback. To carry out this project I’ll draw on a variety of sources to support my investigation.
+My mini project centers on analyzing Google reviews for one of my favorite places to dine in Northfield, MN — The Ole Store Restaurant. This place is known for its Norwegian and European cuisine and holds a special place in the community. On Google Maps, its page has gained significant attention, with more than 800 reviews accumulated over the years, in addition to a wide range of photos uploaded both by the restaurant itself and by loyal customers.
 
-```{r}
-library(dplyr)
-library(stringr)
-library(ggplot2)
+The primary focus of my project is to examine the text of these reviews in order to better understand the psychology of customer responses and gain insight into how people actually feel about the place. By exploring the language of the reviews, I aim to identify patterns in customer satisfaction and critique.
 
-onetofive <- data %>%
-  mutate(
-    rating = as.numeric(rating),
-    review_text = as.character(review_text),
-    char_len = str_length(coalesce(review_text, ""))
-  ) %>%
-  filter(rating >= 1 & rating <= 5)
+The process of collecting data initially proved to be a challenge. However, after exploring options on Reddit and GitHub, I was able to locate useful tools. In particular, I used a desktop application called **Google Maps Scraper** by Leads Extractor, which allowed me to extract the dataset containing ratings, comments, dates, owner replies, and review links.
 
-table(onetofive$rating)
+---
 
-ggplot(onetofive, aes(x = rating, y = char_len)) +
-  geom_point(alpha = 0.4, size = 1.5,
-             position = position_jitter(width = 0.2)) +
-  scale_x_continuous(breaks = 1:5, limits = c(1, 5)) +
-  labs(
-    title = "Review Length VS Star Rating",
-    x = "Star Rating",
-    y = "Review Length in characters"
-  ) +
-  theme_minimal()
+## **Scatterplot Analysis: Review Length vs. Star Rating**
 
-```
+**IMAGE GOES HERE**
+
+The first scatterplot shows that the longest Google reviews were mostly written for 5-star ratings, while reviews with 4, 3, 2, or 1 stars tended to be shorter, and sometimes had no text at all. The smallest number of long reviews appeared in the 1-star category, where many comments were either extremely short or completely empty.
+
+A logical conclusion is that people who write long reviews on Google Maps usually focus on positive aspects, while negative reviewers often leave very short comments or none at all. There are exceptions — for example, one 1-star outlier review had over 600 characters.
+
+---
+
+## **Word Clouds (5-star, 3-star, 1-star)**
+
+**IMAGE GOES HERE**
+
+The **left** cloud (5-star reviews) includes overwhelmingly positive vocabulary: _food, amazing, friendly, delicious, fantastic_, etc. It highlights excellent service, desserts, and friendly staff.
+
+The **middle** cloud (3-star reviews) contains more neutral nouns and fewer adjectives. Reviewers mention issues such as slow service or overcooked dishes.
+
+The **right** cloud (1-star reviews) centers on dissatisfaction: _waitress, disappointing, staff, cold, hair, average breakfast_. Some unique outliers like *girlfriend* or *left* indicate strong emotional responses.
+
+---
+
+## **Sentiment Pie Charts (1-star, 3-star, 5-star)**
+
+**IMAGE GOES HERE**
+
+The tone analysis shows:
+
+- **5-star reviews** → ~80% positive  
+- **3-star reviews** → ~60% positive  
+- **1-star reviews** → surprisingly ~50% positive
+
+This suggests that even many low-star reviewers still include polite or positive language. With ~800 reviews, the sentiment distribution appears balanced and fair.
+
+---
+
+## **Mind Map of Positive Reviews**
+
+**IMAGE GOES HERE**
+
+The mind map highlights strong themes:
+- *delicious food*
+- *excellent service*
+- *fresh ingredients*
+- *wonderful brunch*
+- *reasonable prices*
+- *friendly staff*
+- *wide breakfast selection (including the “Ole Burger”)*
+
+Overall, the main strengths revolve around quality, friendliness, and the atmosphere.
+
+---
+
+## **Mind Map of Negative Reviews**
+
+**IMAGE GOES HERE**
+
+The negative mind map shows:
+- issues with *cheese quality*
+- *disappointing food*
+- *rolled eggs*, *rice soup*
+- concerns about *table experience*
+- problems with *service* or *timing*
+
+Weaknesses tend to focus on specific dishes or table-related experiences rather than general dissatisfaction.
+
+---
+
+# **Conclusion**
+
+The Ole Store Restaurant is a beloved Northfield location with highly positive overall ratings. Customers praise food freshness, friendly staff, and atmosphere. Like any restaurant, it has some weaknesses involving table assignments and specific menu items.
+
+A major finding of this analysis is that long reviews are strongly associated with positive experiences. Negative reviews, by contrast, are often brief and occasionally lack explanation.
+
+---
+
+# **Future Improvements**
+
+- Add more visuals emphasizing issues or patterns  
+- Explore seasonal or monthly trends (not possible here due to missing timestamp export)  
+- Analyze changes over time in sentiment and rating distribution  
+
 
