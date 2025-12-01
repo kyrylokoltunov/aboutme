@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kyrylo Koltunov</title>
+<title>Text_Analysis – Kyrylo Koltunov</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -89,11 +90,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Text_Analysis.html"> 
+    <a class="nav-link active" href="./Text_Analysis.html" aria-current="page"> 
 <span class="menu-text">Text Analysis</span></a>
   </li>  
   <li class="nav-item">
@@ -113,40 +114,107 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="kk_pic.jpeg" class="about-image
-  round " style="height: 250px; width: 250px;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Kyrylo Koltunov</h1>
+<h1 class="title">Text_Analysis</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content" id="quarto-document-content">
-<section id="hi-there" class="level1">
-<h1>Hi there!</h1>
-<p>I’m Kyrylo, a Data Science and Statistics major at St.&nbsp;Olaf.</p>
-<p>My work philosophy is creating meaningful impact by letting facts and numbers guide decisions.</p>
+  
+
+
+</header>
+
+
+<section id="the-ole-store-restaurant-google-reviews-analysis" class="level1">
+<h1>The Ole Store Restaurant – Google Reviews Analysis</h1>
+<p><em>by Kyrylo Koltunov</em></p>
+<p>My mini project centers on analyzing Google reviews for one of my favorite places to dine in Northfield, MN — The Ole Store Restaurant. This place is known for its Norwegian and European cuisine and holds a special place in the community. On Google Maps, its page has gained significant attention, with more than 800 reviews accumulated over the years, in addition to a wide range of photos uploaded both by the restaurant itself and by loyal customers.</p>
+<p>The primary focus of my project is to examine the text of these reviews in order to better understand the psychology of customer responses and gain insight into how people actually feel about the place. By exploring the language of the reviews, I aim to identify patterns in customer satisfaction and critique.</p>
+<p>The process of collecting data initially proved to be a challenge. However, after exploring options on Reddit and GitHub, I was able to locate useful tools. In particular, I used a desktop application called <strong>Google Maps Scraper</strong> by Leads Extractor, which allowed me to extract the dataset containing ratings, comments, dates, owner replies, and review links.</p>
+<hr>
+<section id="scatterplot-analysis-review-length-vs.-star-rating" class="level2">
+<h2 class="anchored" data-anchor-id="scatterplot-analysis-review-length-vs.-star-rating"><strong>Scatterplot Analysis: Review Length vs.&nbsp;Star Rating</strong></h2>
+<p><strong>IMAGE GOES HERE</strong></p>
+<p>The first scatterplot shows that the longest Google reviews were mostly written for 5-star ratings, while reviews with 4, 3, 2, or 1 stars tended to be shorter, and sometimes had no text at all. The smallest number of long reviews appeared in the 1-star category, where many comments were either extremely short or completely empty.</p>
+<p>A logical conclusion is that people who write long reviews on Google Maps usually focus on positive aspects, while negative reviewers often leave very short comments or none at all. There are exceptions — for example, one 1-star outlier review had over 600 characters.</p>
+<hr>
+</section>
+<section id="word-clouds-5-star-3-star-1-star" class="level2">
+<h2 class="anchored" data-anchor-id="word-clouds-5-star-3-star-1-star"><strong>Word Clouds (5-star, 3-star, 1-star)</strong></h2>
+<p><strong>IMAGE GOES HERE</strong></p>
+<p>The <strong>left</strong> cloud (5-star reviews) includes overwhelmingly positive vocabulary: <em>food, amazing, friendly, delicious, fantastic</em>, etc. It highlights excellent service, desserts, and friendly staff.</p>
+<p>The <strong>middle</strong> cloud (3-star reviews) contains more neutral nouns and fewer adjectives. Reviewers mention issues such as slow service or overcooked dishes.</p>
+<p>The <strong>right</strong> cloud (1-star reviews) centers on dissatisfaction: <em>waitress, disappointing, staff, cold, hair, average breakfast</em>. Some unique outliers like <em>girlfriend</em> or <em>left</em> indicate strong emotional responses.</p>
+<hr>
+</section>
+<section id="sentiment-pie-charts-1-star-3-star-5-star" class="level2">
+<h2 class="anchored" data-anchor-id="sentiment-pie-charts-1-star-3-star-5-star"><strong>Sentiment Pie Charts (1-star, 3-star, 5-star)</strong></h2>
+<p><strong>IMAGE GOES HERE</strong></p>
+<p>The tone analysis shows:</p>
+<ul>
+<li><strong>5-star reviews</strong> → ~80% positive<br>
+</li>
+<li><strong>3-star reviews</strong> → ~60% positive<br>
+</li>
+<li><strong>1-star reviews</strong> → surprisingly ~50% positive</li>
+</ul>
+<p>This suggests that even many low-star reviewers still include polite or positive language. With ~800 reviews, the sentiment distribution appears balanced and fair.</p>
+<hr>
+</section>
+<section id="mind-map-of-positive-reviews" class="level2">
+<h2 class="anchored" data-anchor-id="mind-map-of-positive-reviews"><strong>Mind Map of Positive Reviews</strong></h2>
+<p><strong>IMAGE GOES HERE</strong></p>
+<p>The mind map highlights strong themes: - <em>delicious food</em> - <em>excellent service</em> - <em>fresh ingredients</em> - <em>wonderful brunch</em> - <em>reasonable prices</em> - <em>friendly staff</em> - <em>wide breakfast selection (including the “Ole Burger”)</em></p>
+<p>Overall, the main strengths revolve around quality, friendliness, and the atmosphere.</p>
+<hr>
+</section>
+<section id="mind-map-of-negative-reviews" class="level2">
+<h2 class="anchored" data-anchor-id="mind-map-of-negative-reviews"><strong>Mind Map of Negative Reviews</strong></h2>
+<p><strong>IMAGE GOES HERE</strong></p>
+<p>The negative mind map shows: - issues with <em>cheese quality</em> - <em>disappointing food</em> - <em>rolled eggs</em>, <em>rice soup</em> - concerns about <em>table experience</em> - problems with <em>service</em> or <em>timing</em></p>
+<p>Weaknesses tend to focus on specific dishes or table-related experiences rather than general dissatisfaction.</p>
+<hr>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1><strong>Conclusion</strong></h1>
+<p>The Ole Store Restaurant is a beloved Northfield location with highly positive overall ratings. Customers praise food freshness, friendly staff, and atmosphere. Like any restaurant, it has some weaknesses involving table assignments and specific menu items.</p>
+<p>A major finding of this analysis is that long reviews are strongly associated with positive experiences. Negative reviews, by contrast, are often brief and occasionally lack explanation.</p>
+<hr>
+</section>
+<section id="future-improvements" class="level1">
+<h1><strong>Future Improvements</strong></h1>
+<ul>
+<li>Add more visuals emphasizing issues or patterns<br>
+</li>
+<li>Explore seasonal or monthly trends (not possible here due to missing timestamp export)<br>
+</li>
+<li>Analyze changes over time in sentiment and rating distribution</li>
+</ul>
 
 
 </section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://www.linkedin.com/in/kyrylokoltunov/" class="about-link" rel="" target="">
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/kyrylokoltunov" class="about-link" rel="" target="">
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:kyrylo.koltunov@icloud.com" class="about-link" rel="" target="">
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

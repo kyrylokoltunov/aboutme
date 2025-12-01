@@ -11,6 +11,48 @@
     "href": "index.html",
     "title": "Kyrylo Koltunov",
     "section": "",
-    "text": "Hi there!\nI’m Kyrylo, a Data Science and Statistics major at St. Olaf.\nMy work philosophy is creating meaningful impact by letting facts and numbers guide decisions.\nI leverage R, Python, and SQL to manage and analyze complex datasets, generating actionable insights and tailored solutions for various business domains."
+    "text": "Hi there!\nI’m Kyrylo, a Data Science and Statistics major at St. Olaf.\nMy work philosophy is creating meaningful impact by letting facts and numbers guide decisions."
+  },
+  {
+    "objectID": "Text_Analysis.html",
+    "href": "Text_Analysis.html",
+    "title": "Text_Analysis",
+    "section": "",
+    "text": "by Kyrylo Koltunov\nMy mini project centers on analyzing Google reviews for one of my favorite places to dine in Northfield, MN — The Ole Store Restaurant. This place is known for its Norwegian and European cuisine and holds a special place in the community. On Google Maps, its page has gained significant attention, with more than 800 reviews accumulated over the years, in addition to a wide range of photos uploaded both by the restaurant itself and by loyal customers.\nThe primary focus of my project is to examine the text of these reviews in order to better understand the psychology of customer responses and gain insight into how people actually feel about the place. By exploring the language of the reviews, I aim to identify patterns in customer satisfaction and critique.\nThe process of collecting data initially proved to be a challenge. However, after exploring options on Reddit and GitHub, I was able to locate useful tools. In particular, I used a desktop application called Google Maps Scraper by Leads Extractor, which allowed me to extract the dataset containing ratings, comments, dates, owner replies, and review links.\n\n\n\nIMAGE GOES HERE\nThe first scatterplot shows that the longest Google reviews were mostly written for 5-star ratings, while reviews with 4, 3, 2, or 1 stars tended to be shorter, and sometimes had no text at all. The smallest number of long reviews appeared in the 1-star category, where many comments were either extremely short or completely empty.\nA logical conclusion is that people who write long reviews on Google Maps usually focus on positive aspects, while negative reviewers often leave very short comments or none at all. There are exceptions — for example, one 1-star outlier review had over 600 characters.\n\n\n\n\nIMAGE GOES HERE\nThe left cloud (5-star reviews) includes overwhelmingly positive vocabulary: food, amazing, friendly, delicious, fantastic, etc. It highlights excellent service, desserts, and friendly staff.\nThe middle cloud (3-star reviews) contains more neutral nouns and fewer adjectives. Reviewers mention issues such as slow service or overcooked dishes.\nThe right cloud (1-star reviews) centers on dissatisfaction: waitress, disappointing, staff, cold, hair, average breakfast. Some unique outliers like girlfriend or left indicate strong emotional responses.\n\n\n\n\nIMAGE GOES HERE\nThe tone analysis shows:\n\n5-star reviews → ~80% positive\n\n3-star reviews → ~60% positive\n\n1-star reviews → surprisingly ~50% positive\n\nThis suggests that even many low-star reviewers still include polite or positive language. With ~800 reviews, the sentiment distribution appears balanced and fair.\n\n\n\n\nIMAGE GOES HERE\nThe mind map highlights strong themes: - delicious food - excellent service - fresh ingredients - wonderful brunch - reasonable prices - friendly staff - wide breakfast selection (including the “Ole Burger”)\nOverall, the main strengths revolve around quality, friendliness, and the atmosphere.\n\n\n\n\nIMAGE GOES HERE\nThe negative mind map shows: - issues with cheese quality - disappointing food - rolled eggs, rice soup - concerns about table experience - problems with service or timing\nWeaknesses tend to focus on specific dishes or table-related experiences rather than general dissatisfaction."
+  },
+  {
+    "objectID": "Text_Analysis.html#scatterplot-analysis-review-length-vs.-star-rating",
+    "href": "Text_Analysis.html#scatterplot-analysis-review-length-vs.-star-rating",
+    "title": "Text_Analysis",
+    "section": "",
+    "text": "IMAGE GOES HERE\nThe first scatterplot shows that the longest Google reviews were mostly written for 5-star ratings, while reviews with 4, 3, 2, or 1 stars tended to be shorter, and sometimes had no text at all. The smallest number of long reviews appeared in the 1-star category, where many comments were either extremely short or completely empty.\nA logical conclusion is that people who write long reviews on Google Maps usually focus on positive aspects, while negative reviewers often leave very short comments or none at all. There are exceptions — for example, one 1-star outlier review had over 600 characters."
+  },
+  {
+    "objectID": "Text_Analysis.html#word-clouds-5-star-3-star-1-star",
+    "href": "Text_Analysis.html#word-clouds-5-star-3-star-1-star",
+    "title": "Text_Analysis",
+    "section": "",
+    "text": "IMAGE GOES HERE\nThe left cloud (5-star reviews) includes overwhelmingly positive vocabulary: food, amazing, friendly, delicious, fantastic, etc. It highlights excellent service, desserts, and friendly staff.\nThe middle cloud (3-star reviews) contains more neutral nouns and fewer adjectives. Reviewers mention issues such as slow service or overcooked dishes.\nThe right cloud (1-star reviews) centers on dissatisfaction: waitress, disappointing, staff, cold, hair, average breakfast. Some unique outliers like girlfriend or left indicate strong emotional responses."
+  },
+  {
+    "objectID": "Text_Analysis.html#sentiment-pie-charts-1-star-3-star-5-star",
+    "href": "Text_Analysis.html#sentiment-pie-charts-1-star-3-star-5-star",
+    "title": "Text_Analysis",
+    "section": "",
+    "text": "IMAGE GOES HERE\nThe tone analysis shows:\n\n5-star reviews → ~80% positive\n\n3-star reviews → ~60% positive\n\n1-star reviews → surprisingly ~50% positive\n\nThis suggests that even many low-star reviewers still include polite or positive language. With ~800 reviews, the sentiment distribution appears balanced and fair."
+  },
+  {
+    "objectID": "Text_Analysis.html#mind-map-of-positive-reviews",
+    "href": "Text_Analysis.html#mind-map-of-positive-reviews",
+    "title": "Text_Analysis",
+    "section": "",
+    "text": "IMAGE GOES HERE\nThe mind map highlights strong themes: - delicious food - excellent service - fresh ingredients - wonderful brunch - reasonable prices - friendly staff - wide breakfast selection (including the “Ole Burger”)\nOverall, the main strengths revolve around quality, friendliness, and the atmosphere."
+  },
+  {
+    "objectID": "Text_Analysis.html#mind-map-of-negative-reviews",
+    "href": "Text_Analysis.html#mind-map-of-negative-reviews",
+    "title": "Text_Analysis",
+    "section": "",
+    "text": "IMAGE GOES HERE\nThe negative mind map shows: - issues with cheese quality - disappointing food - rolled eggs, rice soup - concerns about table experience - problems with service or timing\nWeaknesses tend to focus on specific dishes or table-related experiences rather than general dissatisfaction."
   }
 ]
