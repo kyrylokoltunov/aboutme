@@ -9,7 +9,9 @@ format:
     code-tools: true
 ---
 
-# The Ole Store Review Analysis
+<div style="text-align: center;">
+  <h1>The Ole Store Review Analysis</h1>
+</div>
 
 <figure style="text-align: center;">
   <img src="ole_pic.jpg" width="75%">
