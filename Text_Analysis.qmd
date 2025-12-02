@@ -48,7 +48,12 @@ The first scatterplot shows that the longest reviews were mostly written for 5 s
 Word Clouds
 ---
 
-**📌 Insert 3-word-cloud image here**
+<figure>
+  <img src="pic2.png" width="75%">
+  <figcaption>
+    Word Clouds.
+  </figcaption>
+</figure>
 
 ### **5-Star Reviews**
 Dominated by positive vocabulary such as *amazing, friendly, delicious, fantastic,* and *excellent*. The overall tone emphasizes quality, atmosphere, and hospitality.
