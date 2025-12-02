@@ -11,7 +11,7 @@ format:
 
 # The Ole Store Review Analysis
 
-<figure>
+<figure style="text-align: center;">
   <img src="ole_pic.jpg" width="75%">
   <figcaption>
     Photo from “Ole Store History Project Solicits Memories & Artifacts from Community,” 
