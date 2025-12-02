@@ -27,6 +27,10 @@ format:
 My mini project examines Google reviews for one of my favorite places to dine in Northfield, MN, The Ole Store Restaurant. Known for its Norwegian and European cuisine, this spot holds a special place in the community. With over 800 Google reviews, it provides a strong dataset for meaningful text analysis. The goal of this project is to explore the psychology of customer feedback, understand trends in both positive and negative reviews, and highlight linguistic patterns in user-generated comments.
 
 ---
+
+Scatterplot Analysis
+---
+
 Review Length by Star Rating
 ---
 
@@ -51,15 +55,7 @@ Word Clouds
   </figcaption>
 </figure>
 
-### **5-Star Reviews**
-Dominated by positive vocabulary such as *amazing, friendly, delicious, fantastic,* and *excellent*. The overall tone emphasizes quality, atmosphere, and hospitality.
-
-### **3-Star Reviews**
-Contain fewer adjectives and more neutral nouns. Themes mention slow service, overcooked dishes, and mixed experiences.
-
-### **1-Star Reviews**
-Focus on dissatisfaction: *waitress, disappointing, cold, staff, hair, breakfast*.  
-Words like *girlfriend* and *left* reflect emotionally charged experiences.
+The left hand side word cloud shows the words most frequently used in 5 star reviews. One of the main words is food, along with adjectives such as amazing, friendly, delicious, and fantastic. The overall set of words is very positive and highlights the restaurant’s strong service, great dishes including desserts, and the friendly staff. The middle cloud represents all 3 star reviews and suggests that some dishes were overcooked, the service was slow, and adjectives were used far less often. This cloud is mostly nouns, which shows the limited detail in this group of comments. The third and most negative cloud focuses on the 1 star reviews and shows that customers mentioned unfriendly staff, hair in the dishes, and breakfast that was not good or was simply average. There are also several unusual words like girlfriend or left that appear because of the extreme dissatisfaction expressed in some of the 1 star comments.
 
 ---
 
