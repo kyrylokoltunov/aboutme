@@ -25,27 +25,39 @@ My work philosophy is creating meaningful impact by letting facts and numbers gu
 
 <style>
 
-/* The container Jolla uses */
+/* override jolla isolation */
 .quarto-about-jolla {
-  position: relative;
-  overflow: hidden; 
+  position: relative !important;
+  background: transparent !important;
+  isolation: unset !important;
 }
 
-/* animated live-code background */
-.code-bg {
-  position: absolute;
+/* wrapper that holds the entire about page content */
+.quarto-about-jolla > .about-main {
+  position: relative;
+  z-index: 2;
+}
+
+/* animated code background */
+.code-background-animated {
+  position: fixed;        /* stays behind content */
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://raw.githubusercontent.com/arthurvr/matrix-rain/master/matrix.gif');
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('https://media.giphy.com/media/qmBbQZ7jjkzgc/giphy.gif');
   background-size: cover;
-  opacity: 0.22;
-  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  opacity: 0.20;
+  z-index: 1;
   pointer-events: none;
 }
 
 </style>
 
-<div class="code-bg"></div>
+<div class="code-background-animated"></div>
+
 
