@@ -88,7 +88,7 @@
     "href": "Text_Analysis.html#scatterplot-analysis",
     "title": "",
     "section": "Scatterplot Analysis",
-    "text": "Scatterplot Analysis\n\nReview Length by Star Rating\n\n\n\nScatterplot showing review length distribution across star ratings.\n\n\nThe first scatterplot shows that the longest reviews were mostly written for 5 star ratings, while reviews with 4, 3, 2, or 1 star tended to be shorter or even empty. Many 1 star reviews contained only a few words or no text at all. Positive reviews tend to be longer because people are more likely to describe enjoyable experiences. Negative reviewers usually put in minimal effort unless the situation was extremely upsetting, in which case the text becomes much longer, such as the 600 character 1 star outlier."
+    "text": "Scatterplot Analysis\n\nReview Length by Star Rating\n\n\n\nScatterplot showing review length distribution across star ratings.\n\n\n\nThe first scatterplot shows that the longest reviews were mostly written for 5 star ratings, while reviews with 4, 3, 2, or 1 star tended to be shorter or even empty. Many 1 star reviews contained only a few words or no text at all. Positive reviews tend to be longer because people are more likely to describe enjoyable experiences. Negative reviewers usually put in minimal effort unless the situation was extremely upsetting, in which case the text becomes much longer, such as the 600 character 1 star outlier."
   },
   {
     "objectID": "Text_Analysis.html#word-clouds",
