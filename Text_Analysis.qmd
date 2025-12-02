@@ -1,11 +1,11 @@
 ---
-title: "Text_Analysis"
 format:
   html:
-    code-fold: true        
-    code-tools: true     
-    toc: true             
-    toc-depth: 3
+    code-fold: true
+    code-tools: false
+    code-block-bg: false
+    code-block-border-left: false
+    hide-code: true
 ---
 
 # The Ole Store Restaurant – Google Reviews Analysis  

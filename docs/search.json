@@ -16,7 +16,7 @@
   {
     "objectID": "Text_Analysis.html",
     "href": "Text_Analysis.html",
-    "title": "Text_Analysis",
+    "title": "The Ole Store Restaurant – Google Reviews Analysis",
     "section": "",
     "text": "By Kyrylo Koltunov\n\nMy mini project examines Google reviews for one of my favorite places to dine in Northfield, MN — The Ole Store Restaurant. Known for its Norwegian and European cuisine, this place holds a special place in the community. With over 800 Google reviews, it offers a rich dataset for meaningful text analysis.\nThe goal of this project is to explore the psychology of customer feedback, understand trends in positive and negative reviews, and highlight linguistic patterns in user-generated comments.\n\n\n\n📌 Insert scatterplot image here\nThe first scatterplot shows that the longest reviews were mostly written for 5-star ratings, while reviews with 4, 3, 2, or 1 stars tended to be shorter or even empty. Many 1-star reviews consisted of only a few words or no text at all.\nPositive reviews tend to be longer because people are more inclined to describe enjoyable experiences. Negative reviewers often use minimal effort—unless a situation was extremely upsetting, in which case the text becomes much longer (e.g., a 600-character 1-star outlier).\n\n\n\n\n📌 Insert 3-word-cloud image here\n\n\nDominated by positive vocabulary such as amazing, friendly, delicious, fantastic, and excellent. The overall tone emphasizes quality, atmosphere, and hospitality.\n\n\n\nContain fewer adjectives and more neutral nouns. Themes mention slow service, overcooked dishes, and mixed experiences.\n\n\n\nFocus on dissatisfaction: waitress, disappointing, cold, staff, hair, breakfast.\nWords like girlfriend and left reflect emotionally charged experiences.\n\n\n\n\n\n📌 Insert sentiment pie charts here\nSentiment results show:\n\n5-star reviews: ~80% positive\n\n3-star reviews: ~60% positive\n\n1-star reviews: ~50% positive (surprisingly balanced)\n\nThis reveals that even negative reviewers often use polite or partially positive wording. Overall, sentiment distribution is well balanced.\n\n\n\n\n📌 Insert positive mind map image here\nThe mind map highlights:\n\ndelicious food\nexcellent service\nfresh ingredients\nfriendly staff\nwide breakfast selection\nreasonable prices\nwonderful brunch\n\nStrengths consistently revolve around quality and atmosphere.\n\n\n\n\n📌 Insert negative mind map image here\nKey negative themes include:\n\nissues with cheese quality\n\ndisappointing dishes\n\nrolled eggs and rice soup\n\ntable experience problems\n\nconcerns about freshness\n\ninconsistent service\n\nNegative feedback often centers around specific items rather than general disapproval.\n\n\n\n\nThe Ole Store Restaurant is widely appreciated for its fresh dishes, friendly staff, and welcoming atmosphere. Critical comments are less frequent and typically focus on specific menu items or service delays.\nA key psychological insight:\nPositive reviewers tend to write longer texts, while negative reviews are frequently short or empty—except when emotions run high.\n\n\n\n\n\nExpand visualization variety for deeper insights\n\nInvestigate seasonal or monthly fluctuations in review patterns\n\nExplore temporal sentiment trends\n\nAttempt to extract timestamps from reviews if possible in the future"
   },
@@ -44,14 +44,14 @@
   {
     "objectID": "Text_Analysis.html#mind-map-of-positive-reviews",
     "href": "Text_Analysis.html#mind-map-of-positive-reviews",
-    "title": "Text_Analysis",
+    "title": "The Ole Store Restaurant – Google Reviews Analysis",
     "section": "",
     "text": "📌 Insert positive mind map image here\nThe mind map highlights:\n\ndelicious food\nexcellent service\nfresh ingredients\nfriendly staff\nwide breakfast selection\nreasonable prices\nwonderful brunch\n\nStrengths consistently revolve around quality and atmosphere."
   },
   {
     "objectID": "Text_Analysis.html#mind-map-of-negative-reviews",
     "href": "Text_Analysis.html#mind-map-of-negative-reviews",
-    "title": "Text_Analysis",
+    "title": "The Ole Store Restaurant – Google Reviews Analysis",
     "section": "",
     "text": "📌 Insert negative mind map image here\nKey negative themes include:\n\nissues with cheese quality\n\ndisappointing dishes\n\nrolled eggs and rice soup\n\ntable experience problems\n\nconcerns about freshness\n\ninconsistent service\n\nNegative feedback often centers around specific items rather than general disapproval."
   },
@@ -72,7 +72,7 @@
   {
     "objectID": "Text_Analysis.html#conclusion",
     "href": "Text_Analysis.html#conclusion",
-    "title": "Text_Analysis",
+    "title": "The Ole Store Restaurant – Google Reviews Analysis",
     "section": "",
     "text": "The Ole Store Restaurant is widely appreciated for its fresh dishes, friendly staff, and welcoming atmosphere. Critical comments are less frequent and typically focus on specific menu items or service delays.\nA key psychological insight:\nPositive reviewers tend to write longer texts, while negative reviews are frequently short or empty—except when emotions run high."
   },
@@ -86,28 +86,28 @@
   {
     "objectID": "Text_Analysis.html#scatterplot-analysis",
     "href": "Text_Analysis.html#scatterplot-analysis",
-    "title": "Text_Analysis",
+    "title": "The Ole Store Restaurant – Google Reviews Analysis",
     "section": "",
     "text": "📌 Insert scatterplot image here\nThe first scatterplot shows that the longest reviews were mostly written for 5-star ratings, while reviews with 4, 3, 2, or 1 stars tended to be shorter or even empty. Many 1-star reviews consisted of only a few words or no text at all.\nPositive reviews tend to be longer because people are more inclined to describe enjoyable experiences. Negative reviewers often use minimal effort—unless a situation was extremely upsetting, in which case the text becomes much longer (e.g., a 600-character 1-star outlier)."
   },
   {
     "objectID": "Text_Analysis.html#word-clouds",
     "href": "Text_Analysis.html#word-clouds",
-    "title": "Text_Analysis",
+    "title": "The Ole Store Restaurant – Google Reviews Analysis",
     "section": "",
     "text": "📌 Insert 3-word-cloud image here\n\n\nDominated by positive vocabulary such as amazing, friendly, delicious, fantastic, and excellent. The overall tone emphasizes quality, atmosphere, and hospitality.\n\n\n\nContain fewer adjectives and more neutral nouns. Themes mention slow service, overcooked dishes, and mixed experiences.\n\n\n\nFocus on dissatisfaction: waitress, disappointing, cold, staff, hair, breakfast.\nWords like girlfriend and left reflect emotionally charged experiences."
   },
   {
     "objectID": "Text_Analysis.html#tone-of-reviews",
     "href": "Text_Analysis.html#tone-of-reviews",
-    "title": "Text_Analysis",
+    "title": "The Ole Store Restaurant – Google Reviews Analysis",
     "section": "",
     "text": "📌 Insert sentiment pie charts here\nSentiment results show:\n\n5-star reviews: ~80% positive\n\n3-star reviews: ~60% positive\n\n1-star reviews: ~50% positive (surprisingly balanced)\n\nThis reveals that even negative reviewers often use polite or partially positive wording. Overall, sentiment distribution is well balanced."
   },
   {
     "objectID": "Text_Analysis.html#possible-improvements",
     "href": "Text_Analysis.html#possible-improvements",
-    "title": "Text_Analysis",
+    "title": "The Ole Store Restaurant – Google Reviews Analysis",
     "section": "",
     "text": "Expand visualization variety for deeper insights\n\nInvestigate seasonal or monthly fluctuations in review patterns\n\nExplore temporal sentiment trends\n\nAttempt to extract timestamps from reviews if possible in the future"
   }
