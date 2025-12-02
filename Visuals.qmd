@@ -14,7 +14,7 @@ library(viridis)
 ```
 
 <figure style="text-align: center;">
-  <img src="pic6.pn" width="75%">
+  <img src="pic6.png" width="75%">
   <figcaption>
     Illustration by Michelle Pereira, The Guardian” 
     <a href="https://www.theguardian.com/australia-news/2023/aug/22/do-australian-catholic-hospitals-perform-abortions-provide-contraception-reproductive-care</a>">TheGuardian.com</a>.
