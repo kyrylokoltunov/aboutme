@@ -59,6 +59,10 @@ ggplot(static_merge, aes(long, lat, group = group, fill = ar)) +
     caption = "Janda, K., Berry, W., & Bingham Powell, G. (2019)."
   )
 
+
+
+# The lowest abortion rates appear in North Dakota, Idaho, Mississippi, and Wyoming. All of them have fewer than 10 abortions per 1,000 women. The highest rates are in New York, New Jersey, Florida, and California. These states show more than 40 abortions per 1,000 women. This may suggest that more economically developed states have higher abortion rates, possibly because of greater access to healthcare.
+
 us_full <- read_sf("https://rstudio.github.io/leaflet/json/us-states.geojson")
 
 interactive_merge <- us_full |>
