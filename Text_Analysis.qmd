@@ -11,8 +11,6 @@ format:
 
 # The Ole Store Restaurant Review Analysis
 
-## The Ole Store – Historical Photo
-
 <figure>
   <img src="ole_pic.jpg" width="75%">
   <figcaption>
