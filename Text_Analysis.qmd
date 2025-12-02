@@ -51,7 +51,7 @@ Word Clouds
 <figure>
   <img src="pic2.png" width="75%">
   <figcaption>
-    Word Clouds.
+    Word Cloud Patterns Across Rating Levels.
   </figcaption>
 </figure>
 
