@@ -22,31 +22,3 @@ about:
 I'm Kyrylo, a Data Science and Statistics major at St. Olaf. 
 
 My work philosophy is creating meaningful impact by letting facts and numbers guide decisions.
-
-<style>
-
-.quarto-about-jolla {
-  position: relative !important;
-  background: transparent !important;
-  isolation: unset !important;
-}
-
-.quarto-about-jolla > .about-main {
-  position: relative;
-  z-index: 2;
-}
-
-.code-background-animated {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-
-  background-image: url('https://i.imgur.com/o5T6QxT.gif');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-pos
-
-
-
