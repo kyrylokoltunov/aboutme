@@ -25,39 +25,28 @@ My work philosophy is creating meaningful impact by letting facts and numbers gu
 
 <style>
 
-/* override jolla isolation */
 .quarto-about-jolla {
   position: relative !important;
   background: transparent !important;
   isolation: unset !important;
 }
 
-/* wrapper that holds the entire about page content */
 .quarto-about-jolla > .about-main {
   position: relative;
   z-index: 2;
 }
 
-/* animated code background */
 .code-background-animated {
-  position: fixed;        /* stays behind content */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
 
-  background-image: url('https://media.giphy.com/media/qmBbQZ7jjkzgc/giphy.gif');
+  background-image: url('https://i.imgur.com/o5T6QxT.gif');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-pos
 
-  opacity: 0.20;
-  z-index: 1;
-  pointer-events: none;
-}
-
-</style>
-
-<div class="code-background-animated"></div>
 
 
